@@ -1,0 +1,15 @@
+[user]
+	name = Coderah
+[push]
+	default = simple
+[alias]
+	c = checkout
+	com = commit -v
+	ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+	f = fetch
+	u = push
+	d = pull
+	s = status
+	a = add
+[core]
+	editor = vim

@@ -1,0 +1,8 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontFamily": "monaco",
+    "editor.fontSize": 19,
+    "filePicker.alternateFileNameMatching": true,
+    "terminal.integrated.fontSize": 16,
+    "workbench.editor.showTabs": false
+}

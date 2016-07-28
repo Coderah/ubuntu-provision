@@ -1,0 +1,15 @@
+{
+	"installed_packages":
+	[
+		"Alignment",
+		"Babel",
+		"Boxy Theme",
+		"DocBlockr",
+		"Emmet",
+		"Git",
+		"GitGutter",
+		"Package Control",
+		"SCSS",
+		"TypeScript"
+	]
+}
