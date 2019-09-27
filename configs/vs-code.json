@@ -7,12 +7,11 @@
     "terminal.integrated.fontFamily": "Fira Code",
     "terminal.integrated.fontLigatures": true,
     "terminal.integrated.fontSize": 16,
-    "workbench.editor.showTabs": false,
     "window.zoomLevel": 0,
     "window.menuBarVisibility": "toggle",
+    "eslint.validate": ["javascript", "javascriptreact", "vue"],
     "eslint.autoFixOnSave": false,
-    "flow.enabled": true,
-    "flow.runOnEdit": true,
+    "flow.runOnEdit": false,
     "flow.useNPMPackagedFlow": true,
     "workbench.sideBar.location": "left",
     "workbench.activityBar.visible": true,
@@ -27,9 +26,7 @@
     "editor.minimap.enabled": false,
     "gitlens.blame.line.enabled": false,
     "window.closeWhenEmpty": false,
-    "editor.rulers": [
-        120
-    ],
+    "editor.rulers": [120],
     "extensions.ignoreRecommendations": true,
     "path-intellisense.autoSlashAfterDirectory": true,
     "prettier.tabWidth": 4,
@@ -50,7 +47,19 @@
     "gitlens.hovers.currentLine.enabled": false,
     "gitlens.keymap": "alternate",
     "editor.minimap.showSlider": "always",
-    "typescript.validate.enable": false,
     "jumpy.wordRegexp": "\\n+|\\s{2,}|\\w{2,}",
-    "gitlens.historyExplorer.enabled": true
+    "gitlens.historyExplorer.enabled": true,
+    "workbench.iconTheme": "eq-material-theme-icons-palenight",
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true,
+    "terminal.integrated.rendererType": "canvas",
+    "breadcrumbs.enabled": true,
+    "workbench.editor.showTabs": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+    "yaml.format.enable": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
 }
