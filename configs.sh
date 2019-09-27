@@ -12,6 +12,7 @@ echo "${yellow}Don't forget to set git config email manually.";
 
 
 cp ./configs/vs-code.json ~/.config/Code/User -f
+cp ./configs/terminator-config ~/.config/terminator/config -f
 
 # sublime
 #cp ./configs/sublime.json ${sublimeUserPath}/Preferences.sublime-settings
