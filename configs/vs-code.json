@@ -1,65 +1,79 @@
 {
-    "window.showFullPath": true,
-    "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true,
-    "editor.fontSize": 15,
-    "editor.detectIndentation": true,
-    "terminal.integrated.fontFamily": "Fira Code",
-    "terminal.integrated.fontLigatures": true,
-    "terminal.integrated.fontSize": 16,
-    "window.zoomLevel": 0,
-    "window.menuBarVisibility": "toggle",
-    "eslint.validate": ["javascript", "javascriptreact", "vue"],
-    "eslint.autoFixOnSave": false,
-    "flow.runOnEdit": false,
-    "flow.useNPMPackagedFlow": true,
-    "workbench.sideBar.location": "left",
-    "workbench.activityBar.visible": true,
-    "vtools.autoHideSideBar": false,
-    "vtools.autoHideDelay": 10,
-    "javascript.validate.enable": false,
-    "gitlens.codeLens.recentChange.enabled": false,
-    "workbench.editor.enablePreviewFromQuickOpen": false,
-    "workbench.editor.enablePreview": false,
-    "workbench.quickOpen.closeOnFocusLost": true,
-    "workbench.editor.revealIfOpen": false,
-    "editor.minimap.enabled": false,
-    "gitlens.blame.line.enabled": false,
-    "window.closeWhenEmpty": false,
-    "editor.rulers": [120],
-    "extensions.ignoreRecommendations": true,
-    "path-intellisense.autoSlashAfterDirectory": true,
-    "prettier.tabWidth": 4,
-    "prettier.singleQuote": true,
-    "prettier.bracketSpacing": true,
-    "prettier.eslintIntegration": true,
-    "prettier.trailingComma": "all",
-    "autoimport.autoComplete": true,
-    "typescript.autoImportSuggestions.enabled": true,
-    "gitlens.advanced.messages": {
-        "suppressFileNotUnderSourceControlWarning": true,
-        "suppressShowKeyBindingsNotice": true,
-        "suppressUpdateNotice": true
-    },
-    "workbench.statusBar.visible": true,
-    "workbench.panel.location": "bottom",
-    "gitlens.currentLine.enabled": false,
-    "gitlens.hovers.currentLine.enabled": false,
-    "gitlens.keymap": "alternate",
-    "editor.minimap.showSlider": "always",
-    "jumpy.wordRegexp": "\\n+|\\s{2,}|\\w{2,}",
-    "gitlens.historyExplorer.enabled": true,
-    "workbench.iconTheme": "eq-material-theme-icons-palenight",
-    "gitlens.views.fileHistory.enabled": true,
-    "gitlens.views.lineHistory.enabled": true,
-    "terminal.integrated.rendererType": "canvas",
-    "breadcrumbs.enabled": true,
-    "workbench.editor.showTabs": false,
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "python.jediEnabled": false,
-    "yaml.format.enable": true,
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    }
+  // Place your settings in this file to overwrite the default settings
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 15,
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontFamily": "Fira Code",
+  "terminal.integrated.fontLigatures": true,
+  "terminal.integrated.fontSize": 15,
+  "workbench.editor.showTabs": false,
+  "vtools.autoHideDelay": 10,
+  "vtools.autoHideSideBar": false,
+  "workbench.activityBar.visible": false,
+  "window.menuBarVisibility": "default",
+  "gitlens.codeLens.visibility": "off",
+  "gitlens.blame.annotation.activeLine": "off",
+  "eslint.run": "onType",
+  "eslint.enable": true,
+  "flow.runOnEdit": false,
+  "flow.stopFlowOnExit": true,
+  "flow.useNPMPackagedFlow": true,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.enablePreview": false,
+  "javascript.validate.enable": false,
+  "editor.minimap.enabled": false,
+  "gitlens.blame.line.enabled": false,
+  "window.zoomLevel": 0,
+  "extensions.ignoreRecommendations": true,
+  "vim.useCtrlKeys": false,
+  "vim.disableAnnoyingNeovimMessage": true,
+  "typescript.check.tscVersion": false,
+  "haxe.enableCodeLens": false,
+  "typescript.autoImportSuggestions.enabled": true,
+  "materialTheme.cache.workbench.settings": {
+    "themeColours": "Light",
+    "accentPrevious": "Breaking Bad"
+  },
+  "workbench.colorCustomizations": {},
+  "editor.minimap.showSlider": "always",
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.enabled": false,
+  "gitlens.keymap": "alternate",
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "workbench.iconTheme": "eq-material-theme-icons",
+  "gitlens.historyExplorer.enabled": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[sass]": {
+    "editor.defaultFormatter": "syler.sass-indented"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "go.formatTool": "goimports",
+  "go.useLanguageServer": true,
+  "editor.largeFileOptimizations": false,
+  "go.lintOnSave": "off",
+  "go.vetOnSave": "off",
+  "go.testOnSave": false,
+  "[go]":  {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {}
+},
 }
